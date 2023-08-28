@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
+
+  application:
+    name: auth-microservice
